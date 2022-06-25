@@ -30,6 +30,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+h1{
+  color: ;
+}
+
 .text-primary-p {
   color: #a5aaad;
   font-size: 14px;
@@ -100,7 +104,7 @@ body {
 }
 
 .navbar__left .active_link {
-  color: #265acc;
+  color: #091d4b;
   border-bottom: 3px solid #265acc;
   padding-bottom: 12px;
 }
@@ -311,7 +315,7 @@ main {
 /*  SIDEBAR STARTS HERE  */
 
 #sidebar {
-  background: #020509;
+  background: #021733;
   grid-area: sidebar;
   overflow-y: auto;
   padding: 20px;
@@ -357,7 +361,7 @@ main {
   font-weight: 700;
 }
 
-.sidebar__link {
+.sidebar_link {
   color: #f3f4f6;
   padding: 10px;
   border-radius: 3px;
@@ -366,20 +370,26 @@ main {
 
 .active_menu_link {
   background: rgba(62, 161, 117, 0.3);
-  color: #3ea175;
+  color: #f0960f;
 }
 
 .active_menu_link a {
   color: #3ea175 !important;
 }
 
-.sidebar__link > a {
+.sidebar_link > a {
   text-decoration: none;
   color: #a5aaad;
   font-weight: 700;
 }
 
-.sidebar__link > i {
+.sidebar_link > a:hover {
+  text-decoration: none;
+  color: #3ea175;
+  font-weight: 700;
+}
+
+.sidebar_link > i {
   margin-right: 10px;
   font-size: 18px;
 }

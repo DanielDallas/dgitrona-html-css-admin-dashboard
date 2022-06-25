@@ -9,8 +9,11 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
+
+    <link rel="icon" type="image/png" href="assets/dgit-logo.png">
+
     <link rel="stylesheet" href="styles.css" />
-    <title>CSS GRID DASHBOARD</title>
+    <title>DGITRONA - ADMIN DASHBOARD</title>
   </head>
   <body id="body">
     <div class="container">
@@ -19,9 +22,9 @@
           <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
         <div class="navbar__left">
-          <a href="#">Subscribers</a>
-          <a href="#">Video Management</a>
           <a class="active_link" href="#">Admin</a>
+          <a href="#">Settings</a>
+          <a href="#">Logs</a>
         </div>
         <div class="navbar__right">
           <a href="#">
@@ -44,7 +47,7 @@
           <div class="main__title">
             <img src="assets/hello.svg" alt="" />
             <div class="main__greeting">
-              <h1>Hello Codersbite</h1>
+              <h1>Hello RONA ADMIN</h1>
               <p>Welcome to your admin dashboard</p>
             </div>
           </div>
@@ -143,13 +146,19 @@
           </div>
           <!-- CHARTS ENDS HERE -->
         </div>
+
+
+        <nav class="footer">
+          <div style="margin:2% 40%">Built by <a href="https://github.com/DanielDallas" target="_blank">Daniel Dallas</a> </div>
+        </nav>
+        
       </main>
 
       <div id="sidebar">
         <div class="sidebar__title">
           <div class="sidebar__img">
-            <img src="assets/logo.png" alt="logo" />
-            <h1>Codersbite</h1>
+            <img src="assets/dgit-logo.png" alt="logo" style="width:20%; margin-right: 3%;"/>
+            <h3>DGITRONA v1.0.2</h3>
           </div>
           <i
             onclick="closeSidebar()"
@@ -160,54 +169,58 @@
         </div>
 
         <div class="sidebar__menu">
-          <div class="sidebar__link active_menu_link">
+          <div class="sidebar_link active_menu_link">
             <i class="fa fa-home"></i>
             <a href="#">Dashboard</a>
           </div>
-          <h2>MNG</h2>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
+            <i class="fa fa-user-o"></i>
+            <a href="#">Administrators</a>
+          </div>
+          <h2>MANAGEMENT</h2>
+          <div class="sidebar_link">
             <i class="fa fa-user-secret" aria-hidden="true"></i>
             <a href="#">Admin Management</a>
           </div>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-building-o"></i>
             <a href="#">Company Management</a>
           </div>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-wrench"></i>
             <a href="#">Employee Management</a>
           </div>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-archive"></i>
             <a href="#">Warehouse</a>
           </div>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-handshake-o"></i>
             <a href="#">Contracts</a>
           </div>
           <h2>LEAVE</h2>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-question"></i>
             <a href="#">Requests</a>
           </div>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-sign-out"></i>
             <a href="#">Leave Policy</a>
           </div>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-calendar-check-o"></i>
             <a href="#">Special Days</a>
           </div>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-files-o"></i>
             <a href="#">Apply for leave</a>
           </div>
           <h2>PAYROLL</h2>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-money"></i>
             <a href="#">Payroll</a>
           </div>
-          <div class="sidebar__link">
+          <div class="sidebar_link">
             <i class="fa fa-briefcase"></i>
             <a href="#">Paygrade</a>
           </div>

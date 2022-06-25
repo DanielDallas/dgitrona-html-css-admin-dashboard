@@ -1,6 +1,6 @@
 <h3>DIGITRONA - A Responsive Html Css Admin Dashboard</h3>
 ----
 
-<img src="assets/snapshot.PNG" />
+<img src="assets/snapshot.png" />
 
 ----

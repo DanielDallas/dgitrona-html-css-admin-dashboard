@@ -1,5 +1,6 @@
-<h3>Responsive Html Css Grid Admin Dashboard</h3>
-<p>Youtube Channel https://www.youtube.com/channel/UC8c4OFeOvNGmUlHLfQb9TVg</p>
-<hr>
+<h3>DIGITRONA - A Responsive Html Css Admin Dashboard</h3>
+----
 
-<img src="assets/screenshot.PNG" />
+<img src="assets/snapshot.PNG" />
+
+----

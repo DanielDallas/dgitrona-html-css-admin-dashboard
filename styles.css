@@ -34,6 +34,13 @@ h1{
   color: ;
 }
 
+span > a {
+  color: #3b9668;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
 .text-primary-p {
   color: #a5aaad;
   font-size: 14px;
